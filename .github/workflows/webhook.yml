@@ -1,5 +1,6 @@
 name: hello-world
-on: 
+on:
+  workflow_dispatch:
   repository_dispatch:
       types:
         - webhook
